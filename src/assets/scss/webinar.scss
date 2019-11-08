@@ -1,0 +1,64 @@
+.sidebar {
+    background: #4a4f55;
+}
+h1 {
+    color: #6184c3;
+    line-height: 1.2em;
+    margin-bottom: .5em;
+}
+.sidebar h2 {
+    color: #ffffff;
+    text-align: center;
+}
+.sidebar h3 {
+    color: #fcee09;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.sidebar p {
+    text-align: center;
+    color: #ffffff;
+}
+.sidebar table.button table td a {
+    padding: 5px 10px;
+}
+.sidebar a.maplink {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 12px;
+}
+.presenter {
+    background: #6184c3;
+}
+.presenter-info h2, .presenter-info p {
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.presenter-info h2 {
+    letter-spacing: 1px;
+}
+
+.presenter-info img.letrs-logo {
+    width: 100px !important;
+    margin-top: 5px;
+}
+
+.presenter th.columns {
+    padding-bottom: 0;
+}
+.product-icons img {
+    max-width: 57px;
+    display: inline;
+}
+.summary h3 {
+    color: #6184c3;
+    font-size: 18px;
+}
+.summary li {
+    margin-bottom: 10px;
+}
+.webinar-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}

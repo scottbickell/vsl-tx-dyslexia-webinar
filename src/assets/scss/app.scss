@@ -1,0 +1,273 @@
+@import 'settings';
+@import 'foundation-emails';
+@import 'webinar';
+
+// @import 'template/template';
+
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+p.view-online {
+    background: $body-background;
+    color: #999999;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.view-online a {
+    font-weight: normal;
+    text-decoration: underline;
+    color: #999999;
+}
+
+td {
+    hyphens: none;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+}
+
+a, a:visited, a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+    color: #005587;
+}
+
+// VSL colors
+
+.vsl-red-dark {
+    color: #ac0b3d;
+}
+
+.vsl-red-dark-bg {
+    background: #a7222a;
+}
+
+.vsl-red-light {
+    color: #e8004c;
+}
+
+.vsl-orange {
+    color: #ff6d10;
+}
+
+.vsl-yellow {
+    color: #ffbf3d;
+}
+
+.vsl-green-dark {
+    color: #00956e;
+}
+
+.vsl-green-light {
+    color: #76bd22;
+}
+
+.vsl-gray-dark {
+    color: #4a4f55;
+}
+
+.vsl-aqua {
+    color: #64d0e4;
+}
+
+.vsl-purple-dark {
+    color: #522d6d;
+}
+
+.vsl-purple-light {
+    color: #86339a;
+}
+
+table.button table td a {
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.footer {
+    background: #4a4f55;
+}
+
+.footer p {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.unsubscribe {
+    background: $body-background;
+}
+
+.unsubscribe p {
+    font-size: 10px;
+}
+
+.unsubscribe a {
+    color: #000000;
+    font-weight: normal;
+}
+
+.signature img {
+    max-width: 200px;
+}
+
+.showit {
+    background: #e5e5e5;
+}
+
+.social-media {
+    background: $body-background;
+}
+
+.social-media img {
+    display: inline;
+    width: 32px;
+    height: 32px;
+    margin: 0 2px;
+}
+
+
+
+// <br class="hide-hardbreak">
+
+.vsl-logo {
+    max-width: 350px;
+}
+
+table.button table td {
+    text-align: center !important;
+}
+
+.no-bottom-padding {
+    padding-bottom: 0 !important;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #005587;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.top-text {
+    font-size: 12px;
+}
+
+// all product boxes
+
+table.product-table {
+    border-width: 2px;
+    border-style: solid;
+}
+
+.product-header {
+    text-align: center;
+}
+
+.product-header h2 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.product-content {
+    text-align: center;
+}
+
+// literacy product styles
+
+.literacy {
+    border-color: #ffbf3d;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.product-table.literacy .product-header {
+    background: #ffbf3d;
+}
+
+// math product styles
+
+.math {
+    border-color: #76bd22;
+}
+
+.product-table.math .product-header {
+    background: #76bd22;
+}
+
+// personal development styles
+
+.pd {
+    border-color: #ff6d10;
+}
+
+.product-table.pd .product-header {
+    background: #ff6d10;
+}
+
+.product-content p {
+    font-size: 14px;
+}
+
+.headline {
+    background: #005587;
+}
+
+.headline h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+sup {
+    font-size: 12px;
+    line-height: 12px;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+@media only screen and (max-width: 616px) {
+    .social-media img {
+        width: 42px !important;
+        height: 42px !important;
+        margin: 0 5px;
+    }
+    .large-float-right {
+        display: inline;
+        float: right;
+    }
+    .hide-hardbreak {
+        display: none;
+    }
+    .product-icons img {
+        max-width: 100px;
+        display: inline;
+    }
+
+    .presenter-info img.letrs-logo {
+        width: 100px !important;
+        margin-top: 5px;
+    }
+}
